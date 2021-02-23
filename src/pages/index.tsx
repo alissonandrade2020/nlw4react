@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home - BreakTime</title>
+        <title>Moveit - NLW4</title>
       </Head>
       <ExperienceBar />
       <section>
