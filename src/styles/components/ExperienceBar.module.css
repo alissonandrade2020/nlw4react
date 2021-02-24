@@ -28,3 +28,9 @@ span.currentExperience {
     top: 12px;
     transform: translatex(-50%);    /* define o meio do elemento como âncora */
 }
+
+@media(max-height: 700px) {
+    .experienceBar {
+      margin-bottom: 4rem;
+    }
+  }
