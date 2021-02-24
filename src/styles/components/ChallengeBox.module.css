@@ -1,10 +1,9 @@
 .challengeBoxContainer {
-    width: 100%;
     height: 100%;
 
     background: var(--white);
     border-radius: 5px;
-    box-shadow:  0 0 60px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     padding: 1.5rem 2rem;
 
     display: flex;
@@ -14,6 +13,8 @@
 
     text-align: center;
 }
+
+/* ====================================== */
 
 .challengeNotActive {
     display: flex;
@@ -37,12 +38,14 @@
 }
 
 .challengeNotActive p img {
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
-.challengeActive {
-    height:  100%;
+/* ====================================== */
 
+.challengeActive {
+    height: 100%;
+    
     display: flex;
     flex-direction: column;
 }
@@ -76,7 +79,7 @@
 
 .challengeActive footer {
     display: grid;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
@@ -88,11 +91,11 @@
     justify-content: center;
 
     border: 0;
-    border-radius:  5px;
+    border-radius: 5px;
 
     color: var(--white);
 
-    font-size:  1rem;
+    font-size: 1rem;
     font-weight: 600;
 
     transition: filter 0.2s;
@@ -107,5 +110,5 @@
 }
 
 .challengeActive footer button:hover {
-    filter: brightness(0.9) ;
+    filter: brightness(0.9);
 }

@@ -1,12 +1,15 @@
-import '../styles/global.css';
+// Import do contexto (integração entre os components)
+import { ChallengesContext, ChallengesProvider } from '../contexts/ChallengesContext'
 
-import { ChallengesContext } from "../contexts/ChallengesContext";
+import '../styles/global.css'
+
 
 function MyApp({ Component, pageProps }) {
-  return ( 
-  <ChallengesContext.Provider value={'teste'}>
+
+  return (
+    <ChallengesProvider>
       <Component {...pageProps} />
-  </ChallengesContext.Provider>
+    </ChallengesProvider>
   )
 }
 

@@ -4,12 +4,12 @@
     align-items: center;
 }
 
-.experienceBar span{
+.experienceBar span {
     font-size: 1rem;
 }
 
-.experienceBar > div{
-    flex: 1;
+.experienceBar > div {
+    flex: 1;    /* o elemento ocupa todo o espaço disponível */
     height: 4px;
     border-radius: 4px;
     background: var(--gray-line);
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.experienceBar > div > div{
+.experienceBar > div > div {
     height: 4px;
     border-radius: 4px;
     background: var(--green);
@@ -25,12 +25,6 @@
 
 span.currentExperience {
     position: absolute;
-    top:  12px;
-    transform: translateX(-50%);
+    top: 12px;
+    transform: translatex(-50%);    /* define o meio do elemento como âncora */
 }
-
-@media(max-height: 700px) {
-    .experienceBar {
-      margin-bottom: 4rem;
-    }
-  }
