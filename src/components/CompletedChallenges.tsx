@@ -1,18 +1,14 @@
-// Import css module
-import styles from '../styles/components/CompletedChallenges.module.css';
-
-import { useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengesContext';
+import { useContext } from 'react'
+import { ChallengesContext } from '../contexts/ChallengesContext'
+import styles from '../styles/components/CompletedChallenges.module.css'
 
 export function CompletedChallenges() {
+  const { challengesCompleted } = useContext(ChallengesContext)
 
-    // Define quais informações do contexto serão usadas nesse componente
-    const { challengesCompleted } = useContext(ChallengesContext);
-
-    return (
-        <div className={ styles.completedChallengesContainer }>
-            <span>Desafios completos</span>
-            <span>{ challengesCompleted }</span>
-        </div>
-    );
+  return (
+    <div className={styles.completedChallengesContainer}>
+      <span>Desafios completos</span>
+      <span>{challengesCompleted}</span>
+    </div>
+  )
 }

@@ -1,36 +1,35 @@
-
 .experienceBar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .experienceBar span {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .experienceBar > div {
-    flex: 1;    /* o elemento ocupa todo o espaço disponível */
-    height: 4px;
-    border-radius: 4px;
-    background: var(--gray-line);
-    margin: 0 1.5rem;
-    position: relative;
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--gray-line);
+  margin: 0 1.5rem;
+  position: relative;
 }
 
 .experienceBar > div > div {
-    height: 4px;
-    border-radius: 4px;
-    background: var(--green);
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--green);
 }
 
 span.currentExperience {
-    position: absolute;
-    top: 12px;
-    transform: translatex(-50%);    /* define o meio do elemento como âncora */
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%);
 }
 
 @media(max-height: 700px) {
-    .experienceBar {
-      margin-bottom: 4rem;
-    }
+  .experienceBar {
+    margin-bottom: 4rem;
   }
+}

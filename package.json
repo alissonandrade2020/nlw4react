@@ -1,5 +1,5 @@
 {
-  "name": "move.it",
+  "name": "movit-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/typescript": "^2.0.0",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
