@@ -1,4 +1,4 @@
-.profileContainer{
+.profileContainer {
   display: flex;
   align-items: center;
 }
@@ -6,7 +6,7 @@
 .profileContainer > img {
   width: 5.5rem;
   height: 5.5rem;
-  border-radius: 50%;
+  border-radius: 50%
 }
 
 .profileContainer div {
@@ -16,7 +16,8 @@
 .profileContainer div strong {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--title);
+
+  color: var(--title)
 }
 
 .profileContainer div p {
@@ -24,6 +25,6 @@
   margin-top: 0.5rem;
 }
 
-.profileContainer div p img{
+.profileContainer div p img {
   margin-right: 0.5rem;
 }

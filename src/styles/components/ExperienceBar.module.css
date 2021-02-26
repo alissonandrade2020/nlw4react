@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.experienceBar span {
+.experienceBar span{
   font-size: 1rem;
 }
 
@@ -19,13 +19,13 @@
 .experienceBar > div > div {
   height: 4px;
   border-radius: 4px;
-  background-color: var(--green);
+  background: var(--green);
 }
 
 span.currentExperience {
   position: absolute;
   top: 12px;
-  transform: translateX(-50%);
+  transform: translateX(-50%)
 }
 
 @media(max-height: 700px) {
